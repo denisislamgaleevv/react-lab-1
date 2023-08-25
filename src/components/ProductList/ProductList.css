@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Geologica&family=Overpass&family=Rubik&display=swap');
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    flex-wrap: wrap;
+
+
+    
+    background-color: rgb(235, 235, 235);
+    
+     
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 98%;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-family: 'Geologica', sans-serif;
+}

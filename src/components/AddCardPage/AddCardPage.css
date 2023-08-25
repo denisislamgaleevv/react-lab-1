@@ -1,0 +1,110 @@
+
+.add-card-page-wrapper{
+    width: 100%;
+    background-color: rgb(235, 235, 235);
+    
+   width: 98%;
+   padding-left: 1%;
+   padding-right: 1%;
+   padding-top: 2%;
+
+   padding-bottom: 2%;
+   font-family: 'Geologica', sans-serif;
+}
+.add-card-page{
+    height: 400px;
+    background-color: white;
+    margin: 0 1.5% 0 1.5%;
+   
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    padding: 20px;
+    display: flex;
+    position: relative;
+}
+.add-card-page-left{
+    width: 70%; 
+}
+.add-card-page-right{
+    width: 30%;
+}
+.desc-textarea{
+    width: 100%;
+     
+    
+    height: 80%;
+    background-color: white;
+    border: 1px solid rgb(139, 139, 139);
+    border-radius: 0;
+     margin-right: 2%;
+}
+.add-card-page-left h3{
+    width: 95%;
+   padding-bottom: 10px;
+     
+}
+.add-input{
+    width: 100%;
+    background-color: white;
+    border: 1px solid rgb(139, 139, 139);
+    border-radius: 0;
+ 
+    margin-right: 2%;
+}
+.add-input:focus, .desc-textarea:focus{
+    
+    box-shadow: 0 0px 6px rgba(0, 0, 0, 0.4);
+    outline: none;
+   
+   
+}
+.select-category{
+   
+    background-color: white;
+    border: 1px solid rgb(139, 139, 139);
+    border-radius: 0;
+ 
+    margin-right: 2%;
+}
+.select-category:focus{
+    box-shadow: 0 0px 6px rgba(0, 0, 0, 0.4);
+    border-radius: 0;
+ 
+}
+.add-btn-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    
+}
+.add-btn{
+    padding: 10px 30px  10px 30px;
+    border-radius: 5px;
+    border: 0;
+    background-color:  rgb(96, 165, 255);
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.add-btn:hover{
+    
+    background-color:   rgb(79, 137, 214);
+     
+}
+.desc-h3{
+    height: 100px;
+}
+@media screen and (max-width: 800px){
+    .add-card-page-left{
+        width: 60%; 
+    }
+    .add-card-page-right{
+        width:  40%;
+    }
+    
+}
