@@ -53,7 +53,12 @@ export const Card = ({product,  deleteProduct}) =>{
                 <h3 className = 'rating-left'> {product.rating.rate}&nbsp;<FontAwesomeIcon icon={faStar} 
                 style = {{color: '#FFCD60'}}/></h3>
                 }
-                <h3 className = 'rating-right'>in stock {product.rating.count} items  </h3>
+                {
+                    (product.rating.count === '' || product.rating.count === 0 )? 
+                      <h3 className = 'rating-right'>No items in stock </h3>:
+                    <h3 className = 'rating-right'>in stock {product.rating.count} items  </h3>
+                }
+             
             </div>
             
         </div>
