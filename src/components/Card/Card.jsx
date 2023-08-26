@@ -44,6 +44,7 @@ export const Card = ({product,  deleteProduct}) =>{
             {chooseColor(product.category)}
                 <img src = {product.image} />
             </div>
+            
             <h2 className='price'>{product.price}$</h2>   
             <div className = 'description-container'>  
                 <p>{product.description}</p>
